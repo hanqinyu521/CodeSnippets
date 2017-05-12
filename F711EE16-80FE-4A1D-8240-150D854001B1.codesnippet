@@ -3,23 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pweak</string>
+	<string>inlineblock</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) &lt;#class#&gt; *&lt;#name#&gt;;
+	<string>    &lt;#returnType#&gt; (^&lt;#blockName#&gt;)(&lt;#varType#&gt;) = ^&lt;#returnType#&gt; (&lt;#varType#&gt; &lt;#varName#&gt;) {
+        return &lt;#code#&gt;;
+    };
+    
+    // &lt;#blockName#&gt;(&lt;#variable#&gt;);
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4D367E1D-A555-4BAC-8D5D-6856F3240A3F</string>
+	<string>F711EE16-80FE-4A1D-8240-150D854001B1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property - weak</string>
+	<string>inline Block</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pweak</string>
+	<string>notification_remove</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) &lt;#class#&gt; *&lt;#name#&gt;;
+	<string>    [[NSNotificationCenter defaultCenter] removeObserver:self
+                                                    name:&lt;#notification name#&gt;
+                                                  object:nil];
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4D367E1D-A555-4BAC-8D5D-6856F3240A3F</string>
+	<string>7558F68A-5353-4878-8B9E-4F056808400F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property - weak</string>
+	<string>Notification: Remove Observer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

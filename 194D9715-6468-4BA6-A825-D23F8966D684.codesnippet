@@ -3,23 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pweak</string>
+	<string>uiimageviewmasonry</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) &lt;#class#&gt; *&lt;#name#&gt;;
+	<string>    UIImageView *aaa = [[UIImageView alloc] init];
+    &lt;#imageViewName#&gt;.image = [UIImage imageNamed:@"&lt;#name#&gt;"];
+    [&lt;#imageViewName#&gt; addSubview:&lt;#(nonnull UIView *)#&gt;];
+    [&lt;#viewName#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+        &lt;#make#&gt;
+    }];
+    _&lt;#imageViewName#&gt; = &lt;#imageViewName#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4D367E1D-A555-4BAC-8D5D-6856F3240A3F</string>
+	<string>194D9715-6468-4BA6-A825-D23F8966D684</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property - weak</string>
+	<string>UIImageView - masonry</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

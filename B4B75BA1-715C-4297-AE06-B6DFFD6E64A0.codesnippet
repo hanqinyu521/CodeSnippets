@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uiimageViewframe</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UIImageView *&lt;#imageViewName#&gt; = [[UIImageView alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
+    &lt;#imageViewName#&gt;.image = [UIImage imageNamed:@"&lt;#name#&gt;"];
+    [&lt;#viewName#&gt; addSubview:&lt;#(nonnull UIView *)#&gt;];
+    _&lt;#imageViewName#&gt; = &lt;#imageViewName#&gt;;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B4B75BA1-715C-4297-AE06-B6DFFD6E64A0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIImageView - frame</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

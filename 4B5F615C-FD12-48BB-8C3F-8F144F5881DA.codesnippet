@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pweak</string>
+	<string>viewdiddisappear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) &lt;#class#&gt; *&lt;#name#&gt;;
-</string>
+	<string>- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4D367E1D-A555-4BAC-8D5D-6856F3240A3F</string>
+	<string>4B5F615C-FD12-48BB-8C3F-8F144F5881DA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property - weak</string>
+	<string>viewDidDisappear</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uitableviewframe</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UITableView *&lt;#tableViewName#&gt; = [[UITableView alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
+    &lt;#tableViewName#&gt;.backgroundColor = &lt;#UIColor#&gt;;
+    [&lt;#tableViewName#&gt; registerClass:[&lt;#cell#&gt; class] forCellReuseIdentifier:@"&lt;#identifier#&gt;"];
+    &lt;#tableViewName#&gt;.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
+    &lt;#tableViewName#&gt;.separatorStyle = UITableViewCellSeparatorStyleNone;
+    [&lt;#viewName#&gt; addSubview:&lt;#(nonnull UIView *)#&gt;];
+    _&lt;#tableViewName#&gt; = &lt;#tableViewName#&gt;;
+    //自动行高
+    //tableview.rowHeight = UITableViewAutomaticDimension;
+    //tableview.estimatedRowHeight = 100;
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E48822CD-8C2C-4225-B620-B7A473DCD913</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITableVIew - frame</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

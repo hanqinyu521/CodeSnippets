@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uibuttonmasonry</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UIButton *&lt;#buttonName#&gt; = [[UIButton alloc] init];
+    &lt;#buttonName#&gt;.titleLabel.font = [UIFont systemFontOfSize:&lt;#(CGFloat)#&gt;];
+    [&lt;#buttonName#&gt; setTitle:@"&lt;#text#&gt;" forState:UIControlStateNormal];
+    [&lt;#buttonName#&gt; setTitleColor:&lt;#(nullable UIColor *)#&gt; forState:UIControlStateNormal];
+    [&lt;#buttonName#&gt; setImage:[UIImage imageNamed:@"&lt;#name#&gt;"] forState:UIControlStateNormal];
+    [&lt;#buttonName#&gt; setImage:[UIImage imageNamed:@"&lt;#name#&gt;"] forState:UIControlStateSelected];
+    [&lt;#buttonName#&gt; addTarget:&lt;#(nullable id)#&gt; action:@selector(&lt;#selector#&gt;) forControlEvents:UIControlEventTouchUpInside];
+    [&lt;#buttonName#&gt; addSubview:&lt;#(nonnull UIView *)#&gt;];
+    [&lt;#viewName#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+        &lt;#make#&gt;
+    }];
+    _&lt;#buttonName#&gt; = &lt;#buttonName#&gt;;
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2DC6C0F5-A6E2-4452-91A3-011BF6078E27</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIButton - Masonry</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
