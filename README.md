@@ -10,17 +10,17 @@ Xcode中的自定义的代码片段一般存放在:
 
 ### 3、代码块包括
 
-property
+* property
 
-block
+* block
 
-notification
+* notification
 
-delegate
+* delegate
 
-UI控件（frame or Masonry）
+* UI控件（frame or Masonry）
 
-Other common code
+* Other common code
 
 ### 4、使用方法
 
@@ -40,7 +40,7 @@ Other common code
 
 * Completion Scopes 有效范围 - 限制可访问该代码块的范围。if / else语句的自动补全应该只在方法或者函数的实现中有效。
 
-下面这些选项可以任意组合：
+##### 下面这些选项可以任意组合：
 
 * All 全部
 
