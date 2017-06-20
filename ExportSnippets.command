@@ -11,5 +11,5 @@ fi
 
 pushd .
 cd "${GitRoot}"
-cp *.codesnippet "${SnippetsDir}"
+cp hqy_*.codesnippet "${SnippetsDir}"
 popd
