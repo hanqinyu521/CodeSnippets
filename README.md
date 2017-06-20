@@ -1,7 +1,7 @@
 # CodeSnippets
 ### 1、为什么要使用代码块？
 
-提高编码效率
+快速开发提高编码效率节省时间。
 
 ### 2、自定义的代码片段存放在哪里?
 
@@ -20,7 +20,7 @@ delegate
 
 UI控件（frame or Masonry）
 
-其他一些常用
+Other common code
 
 ### 4、使用方法
 
