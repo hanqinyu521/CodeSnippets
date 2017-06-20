@@ -26,7 +26,7 @@ Other common code
 
 可以直接运行工程中的ExportSnippets.command文件自动导入到代码块文件目录内。
 
-### 5、代码块定义
+### 5、代码块自定义方法详解
 
 Title 标题 - 块的名字（出现在代码补全和代码块库列表中）
 
