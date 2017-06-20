@@ -17,8 +17,8 @@
     [&lt;#viewName#&gt; addSubview:&lt;#(nonnull UIView *)#&gt;];
     _&lt;#tableViewName#&gt; = &lt;#tableViewName#&gt;;
     //自动行高
-    //tableview.rowHeight = UITableViewAutomaticDimension;
-    //tableview.estimatedRowHeight = 100;
+    //tableView.rowHeight = UITableViewAutomaticDimension;
+    //tableView.estimatedRowHeight = 100;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E48822CD-8C2C-4225-B620-B7A473DCD913</string>
@@ -29,6 +29,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

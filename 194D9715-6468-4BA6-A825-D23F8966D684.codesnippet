@@ -9,10 +9,10 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    UIImageView *aaa = [[UIImageView alloc] init];
+	<string>    UIImageView *&lt;#imageViewName#&gt; = [[UIImageView alloc] init];
     &lt;#imageViewName#&gt;.image = [UIImage imageNamed:@"&lt;#name#&gt;"];
-    [&lt;#imageViewName#&gt; addSubview:&lt;#(nonnull UIView *)#&gt;];
-    [&lt;#viewName#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+    [&lt;#viewName#&gt; addSubview:&lt;#(nonnull UIView *)#&gt;];
+    [&lt;#imageViewName#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
         &lt;#make#&gt;
     }];
     _&lt;#imageViewName#&gt; = &lt;#imageViewName#&gt;;
@@ -26,6 +26,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

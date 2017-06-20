@@ -3,19 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strongself</string>
+	<string>UIBarButtonItem</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__strong typeof (weakSelf) strongSelf = weakSelf;</string>
+	<string>    UIBarButtonItem * &lt;#itemName#&gt; = [[UIBarButtonItem alloc] initWithTitle:@"&lt;#title#&gt;" style:&lt;#UIBarButtonItemStyle#&gt; target:self action:@selector(&lt;#selector#&gt;)];
+    &lt;#itemName#&gt;.tintColor = &lt;#UIColor#&gt;;
+    self.navigationItem.rightBarButtonItem = &lt;#itemName#&gt;;
+    //self.navigationItem.leftBarButtonItem = &lt;#itemName#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6DCD5E6A-51BF-4E1B-B614-797BA784DED8</string>
+	<string>8F0A0119-E213-455A-BFB5-056DE2551F03</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Strong Self</string>
+	<string>UIBarButtonItem - Default</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
