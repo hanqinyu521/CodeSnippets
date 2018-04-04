@@ -3,22 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strongself</string>
+	<string>shared</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typeof(weakSelf) __strong strongSelf = weakSelf;</string>
+	<string>+ (id)shared&lt;#class#&gt;{
+    static &lt;#class#&gt; * &lt;#name#&gt; = nil ;
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        &lt;#name#&gt;= [[&lt;#class#&gt; alloc] init];
+    });
+    return &lt;#name#&gt;;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6DCD5E6A-51BF-4E1B-B614-797BA784DED8</string>
+	<string>9DA8D014-8641-4CB1-9D38-827D4412D8EF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Strong Self</string>
+	<string>Shared - Singleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
